@@ -1,4 +1,4 @@
-# ET User Auth Service
+# Authentication Service
 
 A Spring Boot microservice for user authentication and authorization in the Expense Tracker application. This service handles user registration, login, JWT token generation, and user profile management.
 
@@ -43,7 +43,7 @@ Update `src/main/resources/application.yml`:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/et_user_auth_service
+      uri: mongodb://localhost:27017/Authentication-Service
 ```
 
 ### 3. Build the Project
@@ -63,7 +63,7 @@ brew services start mongodb-community
 
 The service will start on `http://localhost:8080`
 
-## API Documentation
+# API Documentation
 
 ### Base URL
 ```
@@ -352,7 +352,7 @@ POST http://localhost:8080/api/auth/verify?token=YOUR_JWT_TOKEN
 ## Project Structure
 
 ```
-src/main/java/in/codingstreams/etuserauthservice/
+src/main/java/in/codingstreams/authentication-service/
 ├── config/
 │   └── SecurityConfig.java          # Spring Security configuration
 ├── controller/
@@ -469,7 +469,3 @@ lsof -ti:8080 | xargs kill -9
 ## Contributors
 
 - Viplav Khode
-
-## License
-
-MIT
