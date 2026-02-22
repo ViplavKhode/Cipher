@@ -1,4 +1,4 @@
-# 🔐 Cipher : A Authentication Service
+# 🔐 Cipher : The Authentication Service
 
 A Spring Boot microservice for user authentication and authorization in the Expense Tracker application. This service handles user registration, login, JWT token generation, and user profile management.
 
