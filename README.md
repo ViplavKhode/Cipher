@@ -1,4 +1,4 @@
-# Authentication Service
+# 🔐 Authentication Service
 
 A Spring Boot microservice for user authentication and authorization in the Expense Tracker application. This service handles user registration, login, JWT token generation, and user profile management.
 
@@ -63,7 +63,7 @@ brew services start mongodb-community
 
 The service will start on `http://localhost:8080`
 
-# API Documentation
+# 📑 API Documentation
 
 ### Base URL
 ```
@@ -245,7 +245,7 @@ Email already exists
 
 ---
 
-## Complete Postman Testing Guide
+## 📈 Complete Postman Testing Guide
 
 ### Step 1: Import Requests in Postman
 
