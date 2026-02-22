@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: et-user-auth-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/et_user_auth_service
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
+
+jwt:
+  secret: your-secret-key-change-this-in-production-super-secret-key
+  expiration: 86400000
